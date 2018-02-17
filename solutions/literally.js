@@ -1,0 +1,2 @@
+// literally
+module.exports = /literally/

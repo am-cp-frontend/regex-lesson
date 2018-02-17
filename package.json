@@ -1,0 +1,22 @@
+{
+  "name": "regexp-lesson",
+  "version": "1.0.0",
+  "description": "Regexp lesson and corresponding references \\ tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/am-cp-frontend/regexp-lesson.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/am-cp-frontend/regexp-lesson/issues"
+  },
+  "homepage": "https://github.com/am-cp-frontend/regexp-lesson#readme",
+  "dependencies": {
+    "jest": "^22.3.0"
+  }
+}
