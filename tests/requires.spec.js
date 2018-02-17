@@ -11,9 +11,12 @@ describe('requires', () => {
         const module = require("./path/to/module.js")
       `
 
-      let matches = requires.exec(snippet)
+      let matches, modules = []
+      while ((matches = requires.exec(snippet)) !== null) {
+          modules.push(matches[1])
+      }
 
-      expect(matches.slice(1))
+      expect(modules)
         .toEqual(['a', 'b', 'node-require', './path/to/module.js'])
     })
 })
