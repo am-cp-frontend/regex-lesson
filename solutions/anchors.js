@@ -1,7 +1,7 @@
 module.exports = {
   // starts with yoda
-  start: /^Yoda/,
+  start: /todo/,
 
   // ends with luke
-  end: /Luke$/
+  end: /todo/
 }
